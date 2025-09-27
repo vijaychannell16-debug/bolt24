@@ -1,10 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { 
-  User, Camera, Save, Edit, CheckCircle, Clock, 
-  DollarSign, Award, FileText, Star, Shield,
-  AlertTriangle, Plus, Trash2, Eye
-} from 'lucide-react';
+import { User, Camera, Save, CreditCard as Edit, CheckCircle, Clock, DollarSign, Award, FileText, Star, Shield, AlertTriangle, Plus, Trash2, Eye } from 'lucide-react';
 import { useAuth } from '../contexts/AuthContext';
 import { useTheme } from '../contexts/ThemeContext';
 import toast from 'react-hot-toast';
